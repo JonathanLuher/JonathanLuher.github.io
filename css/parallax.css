@@ -1,0 +1,43 @@
+.parallax-header{
+    background: #000;
+    background: linear-gradient(
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.9)
+            ),
+            url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    padding: 100px 0 150px 0;
+}
+
+.content{
+    margin-top: -80px;
+    background: #fff;
+    box-shadow: 0 0 20px -6px rgba(0,0,0,0.3);
+}
+
+.content .lef{    
+    padding-top: 20px;
+}
+
+.content .right{
+    padding: 0;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.content .bottom{
+    background: #150326;
+    padding: 20px;
+}
+
+.primary-color{
+    color: #402468;
+}
